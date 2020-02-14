@@ -1,16 +1,4 @@
 #
-# This document is a quick overview of how i set up my fresh Ubuntu system
-# and my primary first steps in getting herself up and going.
-#
-# AND.. 
-# as an added bonus,  at the end this help documenta small set of code can be copied and saved to 
-# your desktop as a quick shortcut and edit it as neccessary to suit yourself.
-#
-# ANd.. 
-#
-# If you found this useful let me know how 
-# or maybe if you have any suggestions feel free to message me..
-#
 # START HERE...
 #
 # Step 1 updating the software repositories
@@ -67,13 +55,4 @@ sudo apt update && sudo apt upgrade
 sudo apt-get update && sudo apt-get upgrade
 sudo apt autoremove && sudo apt autoclean
 sudo apt-get autoremove && sudo apt-get autoclean
-#
-#
-# End RTB -  all information retrieved
-# have been logged and saved as history-info.txt
-echo all the above commands and all information retrieved
-echo have been logged and saved as history-info.txt
-#
-history >>~/Desktop/history-info.txt
-#
 #
