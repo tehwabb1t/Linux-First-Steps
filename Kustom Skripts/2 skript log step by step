@@ -1,0 +1,51 @@
+nu skript log step by step
+
+title :  how to create a nu skript
+
+1  open terminal
+   (ctrl+alt+T)
+
+2  $ cd Desktop/
+   navigate to desktop
+
+3  $ sudo mkdir KustomSkript
+   creates a KustomSkript folder
+
+4  $ cd KustomSkript/
+   navigate to desktop
+
+5  $ echo echo KSkript > kustom_skript
+   generates a text file named Kustom_skript with title
+
+6  $ chmod +x kustom_skript
+   this converts the document kustom_skript for process
+
+7  add skript deets
+   ....see example kode skript.....
+
+8  reconvert kustom_skript
+   $ chmod +x kustom_skript
+
+9  cd to folder and run the skript
+   $ ./kustom_skript
+
+basically it..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

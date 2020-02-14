@@ -1,0 +1,28 @@
+echo Default update Skript
+
+#
+echo Gregs kustom Default update skript
+sudo apt update
+sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt autoremove
+sudo apt autoclean
+echo Kustom update skript Komplete
+echo update done
+echo upgrade done
+echo autoremove done
+echo autoclean done
+echo Gregs kustom update skript Komplete
+#
+# Skript details
+echo 
+echo shell name  $SHELL
+echo skript name $0
+echo skript PID  $$
+echo im awesome
+echo 
+#
+
+
+

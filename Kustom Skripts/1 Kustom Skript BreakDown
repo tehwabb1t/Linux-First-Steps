@@ -1,0 +1,80 @@
+
+Gregs Kustom Skript BreakDown
+
+1 create a nu skript
+
+! open bash
+$ echo echo Kustom Skript > kustom_skript
+! creates the kustom skript file and names it kustom skript
+
+$ chmod +x kustom_skript
+! converts the file kustom_skript to a skript
+
+$ ./kustom_skript
+! runs the skript
+
+	----------------------------------
+		kode breakdown
+	----------------------------------
+
+  legend	
+  ! = info  $ = kode  # = komment
+
+$ echo Gregs kustom update skript
+! echo gives output to the user via the cli
+
+$ sudo apt update
+! calls the update command to refresh software driver update repositories sudo require user login
+
+$ sudo apt upgrade
+! calls the upgrade command to refresh hardware driver upgrade repositories
+
+$ sudo apt-get update
+! updates software with admin prevledges
+
+$ sudo apt-get upgrade
+! upgrades hardware with admin prevledges
+
+$ sudo apt autoremove
+! cleans up any leftover hardware software repositories
+
+$ sudo apt autoclean
+! cleans up any leftover software driver repositories
+
+echo Kustom update skript Komplete
+! echo gives output to the user via the cli
+
+echo update done
+! echo gives output to the user via the cli
+
+echo upgrade done
+! echo gives output to the user via the cli
+
+echo autoremove done
+! echo gives output to the user via the cli
+
+echo autoclean done
+! echo gives output to the user via the cli
+
+echo Gregs kustom update skript Komplete
+! echo gives output to the user via the cli
+
+	----------------------------------
+		actual kode
+	----------------------------------
+
+echo Gregs kustom update skript
+sudo apt update
+sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt autoremove
+sudo apt autoclean
+echo Kustom update skript Komplete
+echo update done
+echo upgrade done
+echo autoremove done
+echo autoclean done
+echo Gregs kustom update skript Komplete
+
+<end>

@@ -1,0 +1,60 @@
+echo Kustom Skript
+
+#
+echo Gregs kustom update skript
+sudo apt update
+sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt autoremove
+sudo apt autoclean
+echo Kustom update skript Komplete
+echo update done
+echo upgrade done
+echo autoremove done
+echo autoclean done
+echo Gregs kustom update skript Komplete
+#
+
+# install the snap suite
+echo install Snap Suite
+sudo apt install snapd
+#
+# Media Codecs
+sudo apt install ubuntu-restricted-extras
+echo installing media codec extras
+#
+# install Opera browser using Snap
+echo install Opera browser using Snap
+sudo snap install opera
+#
+# installs vlc media player using Snap
+echo installing VLC 
+sudo snap install vlc
+#
+
+# 
+echo Quick System Specs NeoFetch and ScreenFetch
+$ sudo apt install neofetch
+echo .
+echo type neofetch to run
+#
+
+#
+$ sudo apt install screenfetch
+echo type neofetch to run
+echo .
+echo type neofetch or screenfetch to run
+#
+
+# Skript details
+echo 
+echo shell name  $SHELL
+echo skript name $0
+echo skript PID  $$
+echo im awesome
+echo 
+#
+
+
+

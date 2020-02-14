@@ -1,0 +1,20 @@
+#
+# OPtional NeoFetch and ScreenFetch
+#
+
+
+# 
+echo Quick System Specs NeoFetch and ScreenFetch
+$ sudo apt install neofetch
+echo .
+echo type neofetch to run
+#
+
+#
+$ sudo apt install screenfetch
+echo type neofetch to run
+echo .
+echo type neofetch or screenfetch to run
+#
+#
+

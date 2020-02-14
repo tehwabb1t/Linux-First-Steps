@@ -1,0 +1,24 @@
+# Optional Extra Updates Setup
+echo Optional Extra Updates
+#
+
+# install the snap suite
+echo install Snap Suite
+sudo apt install snapd
+
+# Media Codecs
+sudo apt install ubuntu-restricted-extras
+echo installing media codec extras
+#
+
+# install Opera browser using Snap
+echo install Opera browser using Snap
+sudo snap install opera
+#
+
+# installs vlc media player using Snap
+echo installing VLC 
+sudo snap install vlc
+#
+
+
