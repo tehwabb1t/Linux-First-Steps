@@ -1,4 +1,4 @@
-# example kode
+# Gregs example Skript
 echo Gregs default example skript
 sudo apt update
 sudo apt upgrade
@@ -14,3 +14,4 @@ echo upgrade done
 echo autoremove done
 echo autoclean done
 echo Gregs default example skript
+#
