@@ -1,0 +1,58 @@
+#
+# START HERE...
+#
+# Step 1 updating the software repositories
+echo checking repository for package list updates
+sudo apt update
+#
+#
+# Step 2 updating lists of the newest versions of
+# packages currently installed on the system
+echo checking repository for package list upgrades
+sudo apt upgrade
+#
+#
+# Step 3 once the lists have been updates you can properly update
+echo validating update lists
+sudo apt-get update
+#
+#
+# Step 4 sourcing upgrade software repositories
+echo validating upgrade lists
+sudo apt-get upgrade
+#
+#
+# Step installing Snap Suite
+echo installing Snap Suite
+sudo apt install snapd
+#
+#
+# Step installing Opera browser
+echo installing Opera browser using Snap
+sudo snap install opera
+#
+#
+# Step 5 installing media codecs
+echo installing media codecs
+sudo apt install ubuntu-restricted-extras
+#
+#
+# Step 6 installing qbittorrent
+echo installing qBitTorrent
+sudo apt-get install qBitTorrent
+sudo apt-get update
+sudo add-apt-repository ppa:qBitTorrent-stable
+#
+#
+# Step 7 installing VLC
+echo installing VLC media player
+sudo snap install vlc
+#
+#
+# Step 7 cleaning up
+echo cleaning up residue
+sudo apt update && sudo apt upgrade
+sudo apt-get update && sudo apt-get upgrade
+sudo apt autoremove && sudo apt autoclean
+sudo apt-get autoremove && sudo apt-get autoclean
+#
